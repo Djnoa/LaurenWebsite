@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Fasthand&family=Kanit:wght@300&family=Libre+Franklin:wght@400;900&display=swap");
+
+body {
+  margin: 0;
+  background-color: white;
+  min-height: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #56bae2;
+  padding: 10px;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-family: "Fasthand", cursive;
+  font-size: 55px;
+  color: black;
+  align-self: center;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to right, white, white 50%, black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.navbar-brand:hover {
+  background-position: 0 100%;
+}
+
+.search {
+  align-self: center;
+}
+
+.search-input {
+  width: 200px;
+  height: 30px;
+  font-family: "Arimo", sans-serif;
+  font-size: 17px;
+}
+
+.search-button {
+  height: 30px;
+}
+
+.navbar {
+  display: inline-block;
+  align-self: center;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 25px;
+  font-family: "Arimo", sans-serif;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.nav-link:hover {
+  top: -10px;
+}
+
+.image-container {
+  width: 100%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/cropped-610ba8b6-e18c-4c67-b32b-f83336649c66.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.image-text-title {
+  position: fixed;
+  top: 300px;
+  left: 100px;
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2.88px;
+}
+
+.image-text-second {
+  position: fixed;
+  top: 390px;
+  left: 100px;
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 450;
+  letter-spacing: 2.88px;
+}
+
+.main-header {
+  text-align: center;
+  color: #378a62;
+  font-size: 36px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  margin-top: 70px;
+}
+
+.second-header {
+  text-align: center;
+  color: rgb(55, 54, 54);
+  font-size: 28px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 100;
+  margin-top: 50px;
+}
+
+.para-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.main-paras {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-paras p {
+  padding-left: 130px;
+  padding-right: 70px;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 30px;
+  color: rgb(55, 54, 54);
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  height: 150px;
+  background-color: #56bae2;
+}
+
+#second-img {
+  padding-left: 130px;
+  padding-right: 70px;
+  margin-top: 6%;
+}
+
+.main-list {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 30px;
+  color: rgb(55, 54, 54);
+  font-size: 20px;
+}
+
+.main-list-item {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+#blue-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/blue11.PNG);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.services-container {
+  height: 700px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.services-container-small {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+.services-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.small-service-header {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 30px;
+  color: rgb(55, 54, 54);
+  font-size: 20px;
+}
+.third-header {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 30px;
+  color: rgb(55, 54, 54);
+  font-size: 20px;
+}
+.testimonial-container {
+  background-color: #56bae2;
+  height: 700px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.testimonial-container-small {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #56bae2;
+}
+.testimonial {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 30px;
+  color: rgb(55, 54, 54);
+  font-size: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.contact-container {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+}
+
+.contact-container h1 {
+  color: #378a62;
+  font-size: 36px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+}
+
+.contact-input {
+  width: 30%;
+  margin-right: 30px;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 30px;
+  color: rgb(55, 54, 54);
+  font-size: 20px;
+  border: 1px solid rgba(55, 54, 54, 0.445);
+}
+
+#email {
+  width: 45%;
+}
+
+#message {
+  margin-left: 0;
+  width: 80%;
+  height: 368px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+#contact-img {
+  margin-top: 95px;
+}
+
+.left-container {
+  margin-left: 50px;
+  margin-top: 40px;
+  position: relative;
+}
+
+#send-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  position: absolute;
+  left: 300px;
+  margin-top: 20px;
+}
